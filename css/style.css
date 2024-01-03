@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #279eff;
+  padding: 10px;
+  color: white;
+}
+
+#luas {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#luas h2 {
+  background-color: #279eff;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+#luas label {
+  display: block;
+  margin: 15px;
+}
+
+#luas input {
+  width: 300px;
+  padding: 5px;
+}
+
+#luas img {
+  width: 400px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#luas p {
+  margin-bottom: 60px;
+}
+
+button {
+  margin: 20px 10px;
+  padding: 10px;
+  width: 115px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+#keliling {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#keliling h2 {
+  background-color: #279eff;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+#keliling label {
+  display: block;
+  margin: 15px;
+}
+
+#keliling input {
+  width: 300px;
+  padding: 5px;
+}
+
+#keliling img {
+  width: 400px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#keliling p {
+  margin-bottom: 60px;
+}

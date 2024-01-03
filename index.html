@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Katig - Web Apps</title>
+  </head>
+  <body>
+    <header>
+      <h1>Katig</h1>
+      <p>Sebuah Web Apps untuk menghitung Luas dan Keliling Segitiga.</p>
+    </header>
+
+    <section id="luas" class="active">
+      <h2>Luas Segitiga</h2>
+      <img src="img/segitiga.jpg" alt="" />
+      <p>Rumus Luas Segitiga : 1/2 a x t</p>
+      <form id="luasForm">
+        <label for="alas">Alas:</label>
+        <input type="number" id="alas" name="alas" required /><br /><br />
+        <label for="tinggi">Tinggi:</label>
+        <input type="number" id="tinggi" name="tinggi" required /><br /><br />
+        <p id="luasResult"></p>
+        <button type="button" onclick="hitungLuas()" style="background-color: #525ceb">Hitung Luas</button>
+        <button type="button" onclick="resetLuas()" style="background-color: #ff9800">Reset</button>
+        <button type="button" onclick="showSection('keliling')" id="kelilingBtn" style="background-color: #54b435">Keliling Segitiga</button>
+      </form>
+    </section>
+
+    <section id="keliling">
+      <h2>Keliling Segitiga</h2>
+      <img src="img/segitiga.jpg" alt="" />
+      <p>Rumus Keliling Segitiga : Sisi 1 + Sisi 2 + Sisi 3</p>
+      <form id="kelilingForm">
+        <label for="sisi1">Sisi 1:</label>
+        <input type="number" id="sisi1" name="sisi1" required /><br /><br />
+        <label for="sisi2">Sisi 2:</label>
+        <input type="number" id="sisi2" name="sisi2" required /><br /><br />
+        <label for="sisi3">Sisi 3:</label>
+        <input type="number" id="sisi3" name="sisi3" required /><br /><br />
+        <p id="kelilingResult"></p>
+        <button type="button" onclick="hitungKeliling()" style="background-color: #525ceb">Hitung Keliling</button>
+        <button type="button" onclick="resetKeliling()" style="background-color: #ff9800">Reset</button>
+        <button type="button" onclick="showSection('luas')" id="luasBtn" class="active" style="background-color: #54b435">Luas Segitiga</button>
+      </form>
+    </section>
+  </body>
+</html>
